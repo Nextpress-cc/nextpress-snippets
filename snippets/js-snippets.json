@@ -2,7 +2,7 @@
     "React-Nextjs JS Component": {
       "prefix": "jsc",
       "body": [
-        "export const ${1:componentName} = ({}) => {",
+        "export const ${1:componentName} = () => {",
         "  return (",
         "    <div>${1:componentName}</div>",
         "  )",
