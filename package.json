@@ -1,0 +1,30 @@
+{
+  "name": "nextpress-snippets",
+  "displayName": "Nextpress Snippets",
+  "description": "Professional React and Next.js Snippets for JS/JSX/TS/TSX",
+  "version": "0.0.1",
+  "publisher": "Nextpress Snippets",
+  "engines": {
+    "vscode": "^1.97.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/ts-snippets.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/js-snippets.json"
+      }
+    ]
+  },
+  "icon": "images/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nextpress-cc/nextpress-snippets"
+  }
+}

@@ -1,0 +1,59 @@
+{
+    "React-Nextjs JS Component": {
+      "prefix": "jsc",
+      "body": [
+        "export const ${1:componentName} = ({}) => {",
+        "  return (",
+        "    <div>${1:componentName}</div>",
+        "  )",
+        "}"
+      ],
+      "description": "JavaScript Component"
+    },
+    "React-Nextjs JS Page": {
+      "prefix": "jsp",
+      "body": [
+        "export default function ${1:PageName}() {",
+        "  return (",
+        "    <div>${1:PageName}</div>",
+        "  )",
+        "}"
+      ],
+      "description": "JavaScript Page Component"
+    },
+    "React-Nextjs JS Layout": {
+      "prefix": "jsl",
+      "body": [
+        "export default function ${1:LayoutName}({ children }) {",
+        "  return (",
+        "    <div>",
+        "      {children}",
+        "    </div>",
+        "  )",
+        "}"
+      ],
+      "description": "JavaScript Layout Component"
+    },
+    "React-Nextjs JS Default Function": {
+      "prefix": "js0",
+      "body": [
+        "export default function ${1:ComponentName}() {",
+        "  return (",
+        "    <div>${1:ComponentName}</div>",
+        "  )",
+        "}"
+      ],
+      "description": "JavaScript Default Export"
+    },
+    "React-Nextjs JS Named Function": {
+      "prefix": "js1",
+      "body": [
+        "export const ${1:ComponentName} = () => {",
+        "  return (",
+        "    <div>${1:ComponentName}</div>",
+        "  )",
+        "}"
+      ],
+      "description": "JavaScript Named Export"
+    }
+  }

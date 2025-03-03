@@ -1,0 +1,65 @@
+{
+    "React-Nextjs TS Component": {
+        "prefix": "tsc",
+        "body": [
+            "type Props = {}",
+            "",
+            "export const ${1:componentName} = ({}: Props) => {",
+            "  return (",
+            "    <div>${1:componentName}</div>",
+            "  )",
+            "}"
+        ],
+        "description": "TypeScript Component with Props"
+    },
+    "React-Nextjs TS Page": {
+        "prefix": "tsp",
+        "body": [
+            "export default function ${1:PageName}() {",
+            "  return (",
+            "    <div>${1:PageName}</div>",
+            "  )",
+            "}"
+        ],
+        "description": "TypeScript Page Component"
+    },
+    "React-Nextjs TS Layout": {
+        "prefix": "tsl",
+        "body": [
+            "type Props = {",
+            "  children: React.ReactNode",
+            "}",
+            "",
+            "export default function ${1:LayoutName}({ children }: Props) {",
+            "  return (",
+            "    <div>",
+            "      {children}",
+            "    </div>",
+            "  )",
+            "}"
+        ],
+        "description": "TypeScript Layout Component"
+    },
+    "React-Nextjs TS Default Function": {
+        "prefix": "ts0",
+        "body": [
+            "export default function ${1:ComponentName}() {",
+            "  return (",
+            "    <div>${1:ComponentName}</div>",
+            "  )",
+            "}"
+        ],
+        "description": "TypeScript Default Export"
+    },
+    "React-Nextjs TS Named Function": {
+        "prefix": "ts1",
+        "body": [
+            "export const ${1:ComponentName} = () => {",
+            "  return (",
+            "    <div>${1:ComponentName}</div>",
+            "  )",
+            "}"
+        ],
+        "description": "TypeScript Named Export"
+    }
+}
