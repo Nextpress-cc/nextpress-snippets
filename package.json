@@ -1,9 +1,9 @@
 {
   "name": "nextpress-snippets",
-  "displayName": "Nextpress Snippets",
+  "displayName": "Nextpress-Snippets",
   "description": "Professional React and Next.js Snippets for JS/JSX/TS/TSX",
-  "version": "0.0.1",
-  "publisher": "Nextpress Snippets",
+  "version": "0.0.2",
+  "publisher": "nextpress",
   "engines": {
     "vscode": "^1.97.0"
   },
