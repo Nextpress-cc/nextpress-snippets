@@ -1,59 +1,128 @@
 {
-    "React-Nextjs JS Component": {
-      "prefix": "jsc",
-      "body": [
-        "export const ${1:componentName} = () => {",
-        "  return (",
-        "    <div>${1:componentName}</div>",
-        "  )",
-        "}"
-      ],
-      "description": "JavaScript Component"
-    },
-    "React-Nextjs JS Page": {
-      "prefix": "jsp",
-      "body": [
-        "export default function ${1:PageName}() {",
-        "  return (",
-        "    <div>${1:PageName}</div>",
-        "  )",
-        "}"
-      ],
-      "description": "JavaScript Page Component"
-    },
-    "React-Nextjs JS Layout": {
-      "prefix": "jsl",
-      "body": [
-        "export default function ${1:LayoutName}({ children }) {",
-        "  return (",
-        "    <div>",
-        "      {children}",
-        "    </div>",
-        "  )",
-        "}"
-      ],
-      "description": "JavaScript Layout Component"
-    },
-    "React-Nextjs JS Default Function": {
-      "prefix": "js0",
-      "body": [
-        "export default function ${1:ComponentName}() {",
-        "  return (",
-        "    <div>${1:ComponentName}</div>",
-        "  )",
-        "}"
-      ],
-      "description": "JavaScript Default Export"
-    },
-    "React-Nextjs JS Named Function": {
-      "prefix": "js1",
-      "body": [
-        "export const ${1:ComponentName} = () => {",
-        "  return (",
-        "    <div>${1:ComponentName}</div>",
-        "  )",
-        "}"
-      ],
-      "description": "JavaScript Named Export"
-    }
+  "React-Nextjs JS Component": {
+    "prefix": "jsc",
+    "body": [
+      "export const ${1:componentName} = () => {",
+      "  return (",
+      "    <div>${1:componentName}</div>",
+      "  )",
+      "}"
+    ],
+    "description": "JavaScript Component"
+  },
+  "React-Nextjs JS Page": {
+    "prefix": "jsp",
+    "body": [
+      "export default function ${1:PageName}() {",
+      "  return (",
+      "    <div>${1:PageName}</div>",
+      "  )",
+      "}"
+    ],
+    "description": "JavaScript Page Component"
+  },
+  "React-Nextjs JS Layout": {
+    "prefix": "jsl",
+    "body": [
+      "export default function ${1:LayoutName}({ children }) {",
+      "  return (",
+      "    <div>",
+      "      {children}",
+      "    </div>",
+      "  )",
+      "}"
+    ],
+    "description": "JavaScript Layout Component"
+  },
+  "React-Nextjs JS Default Function": {
+    "prefix": "js0",
+    "body": [
+      "export default function ${1:ComponentName}() {",
+      "  return (",
+      "    <div>${1:ComponentName}</div>",
+      "  )",
+      "}"
+    ],
+    "description": "JavaScript Default Export"
+  },
+  "React-Nextjs JS Named Function": {
+    "prefix": "js1",
+    "body": [
+      "export const ${1:ComponentName} = () => {",
+      "  return (",
+      "    <div>${1:ComponentName}</div>",
+      "  )",
+      "}"
+    ],
+    "description": "JavaScript Named Export"
+  },
+
+
+  "React-Nextjs JS Component (Export at bottom)": {
+    "prefix": "jsce",
+    "body": [
+      "const ${1:ComponentName} = () => {",
+      "  return (",
+      "    <div>${1:ComponentName}</div>",
+      "  )",
+      "}",
+      "",
+      "export default ${1:ComponentName}"
+    ],
+    "description": "JavaScript Component, export at bottom"
+  },
+  "React-Nextjs JS Page (Export at bottom)": {
+    "prefix": "jspe",
+    "body": [
+      "const ${1:PageName} = () => {",
+      "  return (",
+      "    <div>${1:PageName}</div>",
+      "  )",
+      "}",
+      "",
+      "export default ${1:PageName}"
+    ],
+    "description": "JavaScript Page, export at bottom"
+  },
+  "React-Nextjs JS Layout (Export at bottom)": {
+    "prefix": "jsle",
+    "body": [
+      "const ${1:LayoutName} = ({ children }) => {",
+      "  return (",
+      "    <div>",
+      "      {children}",
+      "    </div>",
+      "  )",
+      "}",
+      "",
+      "export default ${1:LayoutName}"
+    ],
+    "description": "JavaScript Layout, export at bottom"
+  },
+  "React-Nextjs JS Default Function (Export at bottom)": {
+    "prefix": "js0e",
+    "body": [
+      "const ${1:ComponentName} = () => {",
+      "  return (",
+      "    <div>${1:ComponentName}</div>",
+      "  )",
+      "}",
+      "",
+      "export default ${1:ComponentName}"
+    ],
+    "description": "JavaScript Default Export, export at bottom"
+  },
+  "React-Nextjs JS Named Function (Export at bottom)": {
+    "prefix": "js1e",
+    "body": [
+      "const ${1:ComponentName} = () => {",
+      "  return (",
+      "    <div>${1:ComponentName}</div>",
+      "  )",
+      "}",
+      "",
+      "export { ${1:ComponentName} }"
+    ],
+    "description": "JavaScript Named Export, export at bottom"
   }
+}

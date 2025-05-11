@@ -4,9 +4,9 @@
         "body": [
             "type Props = {}",
             "",
-            "export const ${1:componentName} = ({}: Props) => {",
+            "export const ${1:ComponentName} = ({}: Props) => {",
             "  return (",
-            "    <div>${1:componentName}</div>",
+            "    <div>${1:ComponentName}</div>",
             "  )",
             "}"
         ],
@@ -61,5 +61,78 @@
             "}"
         ],
         "description": "TypeScript Named Export"
+    },
+    "React-Nextjs TS Component (Export at bottom)": {
+        "prefix": "tsce",
+        "body": [
+            "type Props = {}",
+            "",
+            "const ${1:ComponentName} = ({}: Props) => {",
+            "  return (",
+            "    <div>${1:ComponentName}</div>",
+            "  )",
+            "}",
+            "",
+            "export default ${1:ComponentName}"
+        ],
+        "description": "TS Component with Props, export at bottom"
+    },
+    "React-Nextjs TS Page (Export at bottom)": {
+        "prefix": "tspe",
+        "body": [
+            "const ${1:PageName} = () => {",
+            "  return (",
+            "    <div>${1:PageName}</div>",
+            "  )",
+            "}",
+            "",
+            "export default ${1:PageName}"
+        ],
+        "description": "TS Page Component, export at bottom"
+    },
+    "React-Nextjs TS Layout (Export at bottom)": {
+        "prefix": "tsle",
+        "body": [
+            "type Props = {",
+            "  children: React.ReactNode",
+            "}",
+            "",
+            "const ${1:LayoutName} = ({ children }: Props) => {",
+            "  return (",
+            "    <div>",
+            "      {children}",
+            "    </div>",
+            "  )",
+            "}",
+            "",
+            "export default ${1:LayoutName}"
+        ],
+        "description": "TS Layout Component, export at bottom"
+    },
+    "React-Nextjs TS Default Function (Export at bottom)": {
+        "prefix": "ts0e",
+        "body": [
+            "const ${1:ComponentName} = () => {",
+            "  return (",
+            "    <div>${1:ComponentName}</div>",
+            "  )",
+            "}",
+            "",
+            "export default ${1:ComponentName}"
+        ],
+        "description": "TS Default Export, export at bottom"
+    },
+    "React-Nextjs TS Named Function (Export at bottom)": {
+        "prefix": "ts1e",
+        "body": [
+            "const ${1:ComponentName} = () => {",
+            "  return (",
+            "    <div>${1:ComponentName}</div>",
+            "  )",
+            "}",
+            "",
+            "export { ${1:ComponentName} }"
+        ],
+        "description": "TS Named Export, export at bottom"
     }
 }

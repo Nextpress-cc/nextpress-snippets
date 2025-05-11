@@ -21,6 +21,11 @@ Boost your productivity with professional, time-saving snippets for React and Ne
   - `jsl`/`tsl`: Next.js Layouts
   - `js0`/`ts0`: Default Exports
   - `js1`/`ts1`: Named Exports
+  - `jsce`/`tsce`: React Components with export at bottom
+  - `jspe`/`tspe`: Next.js Pages with export at bottom
+  - `jsle`/`tsle`: Next.js Layouts with export at bottom
+  - `js0e`/`ts0e`: Default Exports with export at bottom
+  - `js1e`/`ts1e`: Named Exports with export at bottom
 
 ## 🛠️ Installation
 
@@ -40,6 +45,11 @@ Boost your productivity with professional, time-saving snippets for React and Ne
 | `jsl`  | Next.js Layout | JavaScript Layout Component |
 | `js0`  | Default Export Function | JavaScript Default Export |
 | `js1`  | Named Arrow Function | JavaScript Named Export |
+| `jsce` | React Component with export at bottom | JavaScript Component, export at bottom |
+| `jspe` | Next.js Page with export at bottom | JavaScript Page, export at bottom |
+| `jsle` | Next.js Layout with export at bottom | JavaScript Layout, export at bottom |
+| `js0e` | Default Export Function with export at bottom | JavaScript Default Export, export at bottom |
+| `js1e` | Named Arrow Function with export at bottom | JavaScript Named Export, export at bottom |
 
 ### 📄 **TypeScript/TSX Snippets**
 
@@ -50,6 +60,11 @@ Boost your productivity with professional, time-saving snippets for React and Ne
 | `tsl`  | TypeScript Layout | TypeScript Layout Component |
 | `ts0`  | TypeScript Default Export | TypeScript Default Export |
 | `ts1`  | TypeScript Named Export | TypeScript Named Export |
+| `tsce` | TypeScript Component with export at bottom | TS Component with Props, export at bottom |
+| `tspe` | TypeScript Next.js Page with export at bottom | TS Page Component, export at bottom |
+| `tsle` | TypeScript Layout with export at bottom | TS Layout Component, export at bottom |
+| `ts0e` | TypeScript Default Export with export at bottom | TS Default Export, export at bottom |
+| `ts1e` | TypeScript Named Export with export at bottom | TS Named Export, export at bottom |
 
 ## 📝 Detailed Examples
 
@@ -100,6 +115,17 @@ export const ProductCard = () => {
     <div>ProductCard</div>
   )
 }
+```
+
+#### `jsce` - JavaScript Component with export at bottom
+```javascript
+const Button = () => {
+  return (
+    <div>Button</div>
+  )
+}
+
+export default Button
 ```
 
 ### TypeScript Snippets
@@ -155,6 +181,19 @@ export const Pagination = () => {
     <div>Pagination</div>
   )
 }
+```
+
+#### `tsce` - TypeScript Component with export at bottom
+```typescript
+type Props = {}
+
+const SearchBar = ({}: Props) => {
+  return (
+    <div>SearchBar</div>
+  )
+}
+
+export default SearchBar
 ```
 
 ## 💡 Usage Tips
